@@ -27,10 +27,8 @@ HTML:<br>
 ``` html
 <div class="ilist-wrapper"><!-- div with position:relative -->
     <ul class="ilist"><!-- "ilist" - list with overflow: scroll -->
-        <li class="ilist__item ilist__item_separator">A</li><!--
-separator -->
-        <li class="ilist__item">A Lorem ipsum...</li><!-- actual content
--->
+        <li class="ilist__item ilist__item_separator">A</li><!-- separator -->
+        <li class="ilist__item">A Lorem ipsum...</li><!-- actual content -->
         <li class="ilist__item">A Lorem ipsum...</li>
         <li class="ilist__item">A Lorem ipsum...</li>
         <li class="ilist__item">A Lorem ipsum...</li>
