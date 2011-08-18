@@ -22,7 +22,8 @@ pinnedClass    : 'ilist__item_pinned'
 Usage:
 ------
 
-HTML:
+HTML:<br>
+
 ``` html
 <div class="ilist-wrapper"><!-- div with position:relative -->
     <ul class="ilist"><!-- "ilist" - list with overflow: scroll -->
@@ -42,7 +43,8 @@ separator -->
 </div>
 ```
 
-Required portion of CSS:
+Required portion of CSS:<br>
+
 ``` css
 .ilist-wrapper {
     position: relative;
@@ -65,7 +67,8 @@ Required portion of CSS:
         }
 ```
 
-And Javascript:
+And Javascript:<br>
+
 ``` javascript	
 $('.list').ilist();
 ```
@@ -73,5 +76,5 @@ $('.list').ilist();
 Compatibility
 -------------
 
-Tested in latest webkits, ff, opera - works okay.
+Tested in latest webkits, ff, opera - works okay.<br>
 No IE _so far_, but hey, graceful degradation, anyone?
