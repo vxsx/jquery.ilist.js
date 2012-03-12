@@ -62,7 +62,6 @@ body {
     -webkit-transform: rotatex(360deg);
     -moz-transform: rotatex(360deg);
 }
-
 /* HERE GOES RELEVANT STYLES */
 .ilist-wrapper {
     position: absolute;
