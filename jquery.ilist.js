@@ -25,7 +25,7 @@
 
             //getting info on separators
             //and making that into a function just in case
-            updatePositions = function() {
+            var updatePositions = function() {
                 //cleaning separators array
                 //TODO: here i need to recalc width without scroll
                 //and maybe make plugin method to recalc positions if width of the list changes
@@ -36,11 +36,11 @@
                     separators.push({
                         $el    : $el,
                         top    : $el.position().top,
-                        height : $el.height() 
-                                  + parseInt( $el.css('padding-top')         ) 
+                        height : $el.height()
+                                  + parseInt( $el.css('padding-top')         )
                                   + parseInt( $el.css('padding-bottom')      )
-                                  + parseInt( $el.css('border-top-width')    ) 
-                                  + parseInt( $el.css('border-bottom-width') ) 
+                                  + parseInt( $el.css('border-top-width')    )
+                                  + parseInt( $el.css('border-bottom-width') )
                     })
                 }
 
